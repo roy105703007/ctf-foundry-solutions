@@ -4,3 +4,10 @@ out = "out"
 libs = ["lib"]
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+
+# --snip--
+[rpc_endpoints]
+# optimism = "https://optimism.alchemyapi.io/v2/..."
+# mainnet = "${RPC_MAINNET}"
+sepolia = "https://rpc.ankr.com/eth_sepolia"
+mumbai = "https://rpc.ankr.com/polygon_mumbai"
